@@ -31,13 +31,13 @@ setup(
               'srv6_sdn_data_plane.southbound.ssh'],  # Required
     install_requires=[
         'setuptools',
-        'grpcio>=1.19.0',
-        'grpcio-tools>=1.19.0',
+        'grpcio==1.41.0',
+        'grpcio-tools==1.41.0',
         'ipaddress>=1.0.22',
         'networkx==1.11',
-        'protobuf>=3.7.1',
+        'protobuf==3.19.1',
         'pyroute2==0.6.9',
-        'six>=1.12.0',
+        'six==1.16.0',
         'pqueue>=0.1.7',
         'filelock>=3.4.0'
     ]
